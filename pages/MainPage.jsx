@@ -1,5 +1,5 @@
+import { Button, Text } from "native-base";
 import { useState } from "react";
-import { Box, Button, Text } from "native-base";
 
 const MainPage = () => {
   const [activePerson, setActivePerson] = useState({
@@ -18,11 +18,6 @@ const MainPage = () => {
       id: 2,
       name: "Sorna",
       age: 21,
-    },
-    {
-      id: 3,
-      name: "Sorna Papa",
-      age: 22,
     },
   ];
 
